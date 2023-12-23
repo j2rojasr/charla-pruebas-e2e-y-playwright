@@ -1,0 +1,19 @@
+{
+  "name": "00-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx playwright test",
+    "start:headed": "npx playwright test --headed",
+    "run:chrome": "npx playwright test chrome.spec.js",
+    "start:ui": "npx playwright test --ui",
+    "project:webkit": "npx playwright test --project webkit",
+    "report": "npx playwright show-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.40.1"
+  }
+}
